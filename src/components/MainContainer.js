@@ -40,6 +40,7 @@ class MainContainer extends Component {
     return (
       
       <div>
+        <DroneList drones={filteredDrones} bookings={this.state.bookings} addNewBooking={this.addNewBooking}/>
         <BookingList bookings={this.state.bookings} editBookingForm={this.editBookingForm} drones={this.state.drones} updatedBookings={this.state.updatedBookings} deleteBooking={this.deleteBooking}
         />
       </div> 
