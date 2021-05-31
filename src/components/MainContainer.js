@@ -7,7 +7,9 @@ class MainContainer extends Component {
 
 
     state = {
+        drones: [],
         bookings: []
+        
         
       }
     
